@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    font-family: sans-serif;
+    background: white;
+}
+
+.container{
+    width: 825px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.navbar{
+    width: 900px;
+    /* background: green; */
+}
+
+.icon{
+    width: 1400px;
+    float: left;
+}
+
+.m{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.img{
+    border-radius: 15px;
+    height: 60px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+/* .c{
+    width: 100px;
+    height: 100vh;
+    background: white;
+    display: flex;
+}
+
+form{
+    background: white;
+    width: 400px;
+    height: 60px;
+    border-radius: 15px;
+}
+
+.s{
+    cursor: pointer;
+} */
+.h{
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.h a{
+    color: black;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.h a:hover{
+    color: blue;
+}
+
+.left{
+    font-size: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    gap: 0.3rem;
+}
+
+.left a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.all{
+    position: absolute;
+    top: 10%;
+    right: 0;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.all a{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.call{
+    border-radius: 10px;
+    border: 1.5px solid black;
+    background: white;
+    height: 50px;
+    width: 140px;
+}
+
+.ksh{
+    text-align: center;
+    background: yellow;
+    height: 30px;
+    width: 70px;
+    border-radius: 20px;
+}
+
+.fave{
+    text-transform: uppercase;
+}
+
+.fave a:hover{
+    color: red;
+}
+
+:nth-child()
+
+.log a:hover{
+    color: red;
+}
+
+.ksh a:hover{
+    color: darkgray;
+}
+
+.menu{
+    width: 800px;
+    float: left;
+}
+
+ul{
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 25px;
+}
+
+ul li{
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    width: 20%;
+}
+
+ul li a{
+    text-decoration:none;
+    color: black;
+}
+
+ul li a:hover{
+    color: red;
+}
+
+.img-1{
+    width: 1350px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 0;
+}
